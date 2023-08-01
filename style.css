@@ -1,0 +1,81 @@
+*,
+
+html {
+
+}
+
+.container-navbar {
+background-color:aqua;
+width: 100%;  
+height: 15vh;
+}
+
+.ul-navbar {
+display:flex;
+height: 100px;
+justify-content: center;
+align-items: center;
+}
+
+.li-navbar {
+    background-color:aqua;
+    list-style-type:none;
+    color: black;
+    margin: 10px;
+    font-size:20px;
+
+}
+
+.li-navbar:hover {
+    background-color:wheat;
+    transition: .5s ease-in-out;
+    border-radius: 10px;
+}
+
+.a-navbar {
+    color: black;
+}
+
+.container-konten {
+    background-color:blueviolet;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:100%;
+    height:70%;
+}
+
+.ul-konten {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.img-konten {
+    width:20%;
+    height:20%;
+}
+
+.p-konten {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align: center;
+    color:white;
+    font-size:20px;
+    border-radius: 70px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);;
+}
+
+.container-footer {
+    background-color:burlywood;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    color: white;
+}
+
+.h1-footer:hover {
+    color: green;
+}
